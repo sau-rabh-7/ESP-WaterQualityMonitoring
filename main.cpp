@@ -50,10 +50,10 @@ const int   daylightOffset_sec = 0;
 String currentClassification = "Initializing...";
 
 // --- Firebase Setup ---
-#define API_KEY "AIzaSyDrPFLaJE8XDDgWufp8EAJj-uX3L9F-Kso"
-#define DATABASE_URL "https://esp-waterquality-default-rtdb.asia-southeast1.firebasedatabase.app/"
-#define USER_EMAIL "saurabh98048@gmail.com"
-#define USER_PASSWORD "ESPProject123!@#"
+#define API_KEY "FIREBASE_API_KEY"
+#define DATABASE_URL "FIREBASE_DATABASE_URL"
+#define USER_EMAIL "FIREBASE_PROJECT_USER_MAIL_ID"
+#define USER_PASSWORD "FIREBASE_PROJECT_USER_PASSWORD"
 
 // --- Global Variables ---
 float temperature = 0.0, phValue = 7.0, tdsValue = 0.0, turbidityValue = 0.0;
@@ -514,7 +514,7 @@ void runInference() {
             best_label = result.classification[ix].label;
         }
     }
-    
     // UPDATE the global variable with the latest classification
     currentClassification = best_label;
+
 }
