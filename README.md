@@ -22,7 +22,8 @@ An advanced, low-cost IoT system for real-time monitoring and intelligent classi
 
 The system is built around an ESP32 microcontroller which acts as the central hub. It collects data from the sensor array, performs on-device inference using the TinyML model, displays status locally, logs data to an SD card, and communicates with the cloud and the remote relay module.
 
-![System Block Diagram](<!-- placeholder: link to your block diagram image -->)
+![System Block Diagram](<img width="479" height="313" alt="system-diagram" src="https://github.com/user-attachments/assets/bd90ca9b-f814-4e7c-87b9-2affc42578a2" />
+)
 
 ---
 
