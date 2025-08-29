@@ -22,8 +22,7 @@ An advanced, low-cost IoT system for real-time monitoring and intelligent classi
 
 The system is built around an ESP32 microcontroller which acts as the central hub. It collects data from the sensor array, performs on-device inference using the TinyML model, displays status locally, logs data to an SD card, and communicates with the cloud and the remote relay module.
 
-![System Block Diagram](<img width="479" height="313" alt="system-diagram" src="https://github.com/user-attachments/assets/bd90ca9b-f814-4e7c-87b9-2affc42578a2" />
-)
+![System Block Diagram](images/system-diagram.png)
 
 ---
 
@@ -149,4 +148,4 @@ A custom dataset is crucial for model accuracy. A Python script (`synthetic_data
 - **Local Interface:** Use the four push buttons to navigate the LCD menu. You can view live sensor readings, change the logging mode, and manually control the relay.
 - **Remote Dashboard:** Access the Firebase Hosting URL from any browser to see the live data cards and graphs update in real-time.
 
-![Web Dashboard Screenshot](<!-- placeholder: link to a screenshot of your live dashboard -->)
+![Web Dashboard Screenshot](images/dashboard.png) ![alt text](images/combined-graph.png)
