@@ -148,4 +148,4 @@ A custom dataset is crucial for model accuracy. A Python script (`synthetic_data
 - **Local Interface:** Use the four push buttons to navigate the LCD menu. You can view live sensor readings, change the logging mode, and manually control the relay.
 - **Remote Dashboard:** Access the Firebase Hosting URL from any browser to see the live data cards and graphs update in real-time.
 
-![Web Dashboard Screenshot](images/dashboard.png) ![alt text](images/combined-graph.png)
+![Web Dashboard Screenshot](images/dashboard.png) ![alt text](images/combined_graph.png)
