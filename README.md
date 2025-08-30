@@ -47,7 +47,7 @@ The system is built around an ESP32 microcontroller which acts as the central hu
 
 The components are connected to the ESP32 as detailed in the Fritzing diagram below. A key design choice is the use of both the VSPI and HSPI buses to isolate the SD card from the MAX6675 sensor, preventing data corruption.
 
-![Fritzing Circuit Diagram](<!-- placeholder: link to your Fritzing diagram image -->)
+![Fritzing Circuit Diagram](images/esp-water-circuit-diagram.png)
 
 ---
 
