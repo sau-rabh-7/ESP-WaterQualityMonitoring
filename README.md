@@ -132,7 +132,7 @@ A custom dataset is crucial for model accuracy. A Python script (`synthetic_data
 3.  **Create Impulse:** Design an impulse with a 4-feature input, a "Raw Data" processing block, and a "Classification (Keras)" learning block.
 4.  **Train:** Train the neural network. The platform provides detailed performance metrics, including accuracy and a confusion matrix.
 
-![Edge Impulse Training Results](edge-impulse-confusion-matrix.png)
+![Edge Impulse Training Results](images/edge-impulse-confusion-matrix.png)
 
 ### 3. Deployment to ESP32
 
