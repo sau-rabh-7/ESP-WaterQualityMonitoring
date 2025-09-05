@@ -80,7 +80,7 @@ MAX6675 thermocouple(THERMO_SCK_PIN, THERMO_CS_PIN, THERMO_SO_PIN);
 File logFile;
 SPIClass hspi(HSPI);
 
-// --- NEW Firebase Global Objects ---
+// --- Firebase Global Objects ---
 FirebaseData fbdo;
 FirebaseAuth auth;
 FirebaseConfig config;
@@ -145,7 +145,6 @@ void setup() {
 
     configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
 
-    // --- NEW Firebase Initialization ---
     config.api_key = API_KEY;
     config.database_url = DATABASE_URL;
     auth.user.email = USER_EMAIL;
@@ -181,7 +180,6 @@ void loop() {
         printSystemStatus();
     }
 
-    // --- NEW Data Sending Logic ---
     if (Firebase.ready() && (currentTime - lastSendTime >= sendInterval)) {
         lastSendTime = currentTime;
 
@@ -514,7 +512,7 @@ void runInference() {
             best_label = result.classification[ix].label;
         }
     }
-    // UPDATE the global variable with the latest classification
     currentClassification = best_label;
 
 }
+
