@@ -1,7 +1,7 @@
 # Intelligent Water Quality Monitoring System with TinyML and Cloud Integration
 
 ![Project Banner](images/system_prototype_labeled.png)
-<font size="1">(1) MicroSD Card Module, (2) ESP-32 (3) Turbidity Sensor Module, (4) MAX6675 Module, (5) 20x4 I2C LCD, (6) Push Buttons, (7) pH Sensor Module, (8) TDS Sensor Module, (9) Turbidity Sensor Probe, (10) Temperature Sensor Probe, (11) pH Sensor Probe, (12) TDS Sensor Probe, (13) Water Sample, and (14) a standalone circuit showing the ESP8266-based Relay and LiPo battery with charging and booster module for pump control.</font>
+<small>(1) MicroSD Card Module, (2) ESP-32 (3) Turbidity Sensor Module, (4) MAX6675 Module, (5) 20x4 I2C LCD, (6) Push Buttons, (7) pH Sensor Module, (8) TDS Sensor Module, (9) Turbidity Sensor Probe, (10) Temperature Sensor Probe, (11) pH Sensor Probe, (12) TDS Sensor Probe, (13) Water Sample, and (14) a standalone circuit showing the ESP8266-based Relay and LiPo battery with charging and booster module for pump control.</small>
 
 An advanced, low-cost IoT system for real-time monitoring and intelligent classification of water quality. This project leverages an ESP32 microcontroller, a suite of environmental sensors, and an on-device machine learning model (TinyML) to provide autonomous anomaly detection. Data is streamed to a Google Firebase backend and visualized on a dynamic, real-time web dashboard.
 
