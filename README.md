@@ -1,6 +1,6 @@
 # Intelligent Water Quality Monitoring System with TinyML and Cloud Integration
 
-![Project Banner](<!-- placeholder: a photo of your assembled project -->)
+![Project Banner](images/system_prototype_labeled.png)
 
 An advanced, low-cost IoT system for real-time monitoring and intelligent classification of water quality. This project leverages an ESP32 microcontroller, a suite of environmental sensors, and an on-device machine learning model (TinyML) to provide autonomous anomaly detection. Data is streamed to a Google Firebase backend and visualized on a dynamic, real-time web dashboard.
 
